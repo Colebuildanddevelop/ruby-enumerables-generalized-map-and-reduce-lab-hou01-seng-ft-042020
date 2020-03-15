@@ -16,6 +16,7 @@ def reduce(source_array, starting_value=0)
     index+=1 
   end 
   puts value
+  return false if value == nil
   value
 end
 

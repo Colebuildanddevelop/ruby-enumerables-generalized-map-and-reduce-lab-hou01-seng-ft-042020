@@ -20,4 +20,4 @@ def reduce(source_array, starting_value=0)
   value
 end
 
-reduce([false, nil, nil, nil]){|memo, n| !!(memo && n)}
+reduce([false, nil, nil, nil]){|memo, n| p !!(memo && n)}

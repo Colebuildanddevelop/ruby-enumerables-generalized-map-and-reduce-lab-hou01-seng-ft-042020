@@ -17,7 +17,7 @@ def reduce(source_array, starting_value=0)
   end 
   puts value
   return false if value == nil
-  value
+  p value
 end
 
 reduce([false, nil, nil, nil]){|memo, n| p !!(memo && n)}
